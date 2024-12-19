@@ -1,6 +1,6 @@
 // config/db.js
 const mongoose = require('mongoose');
-const MONGO_URI = 'mongodb+srv://ibarraariana07:eaajvr7rJJrSQWGr@cluster0.2wfps.mongodb.net/Tienda';
+const MONGO_URI = 'mongodb+srv://ibarraariana07:eaajvr7rJJrSQWGr@cluster0.2wfps.mongodb.net/Tienda?retryWrites=true&w=majority';
 
 mongoose.set('strictQuery', false);
 
